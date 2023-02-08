@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Android Compose Assignment 3</string>
+
+    <!--
+     Text composable
+        Displays text and follows Material Design guidelines.
+     Image composable
+        Creates a composable that lays out and draws a given Painter class object.
+     Row composable
+        A layout composable that places its children in a horizontal sequence.
+    Column composable
+        A layout composable that places its children in a vertical sequence.
+    -->
+    <string name="quadrant1_title"></string>
+    <string name="quadrant1_description"></string>
+    <string name="quadrant2_title"></string>
+    <string name="quadrant2_description"></string>
+    <string name="quadrant3_title"></string>
+    <string name="quadrant3_description"></string>
+    <string name="quadrant4_title"></string>
+    <string name="quadrant4_description"></string>
+</resources>
