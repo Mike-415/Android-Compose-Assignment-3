@@ -49,14 +49,17 @@ class MainActivity : ComponentActivity() {
 
 
 /*
-Lessons learned:
+LESSONS LEARNED:
 The main issue was that I couldn't evoke the Modifier.weight() method within a Composable function
 You can only use the Modifier.weight if it's nested within a parent scope.
 If it's OUTSIDE THE ORIGINAL SCOPE, you need to pass it as an argument.
     ***!!! You need to pass a modifier argument WITHIN THE PARENT'S SCOPE if it's the last composable
 ERROR thrown:
 Cannot access 'ColumnScopeInstance': it is internal in 'androidx.compose.foundation.layout'
-
+-----------------------------------------------------------------------------------------------------
+The Modifier class:
+You can think of this as the super class of all Views.
+It contains all of the attributes and methods that all UI objects share.
 
 android:layout_width="match_parent" == Modifier.fillMaxWidth()
 android:layout_height="match_parent" == Modifier.fillMaxHeight()
